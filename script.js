@@ -24,7 +24,7 @@ switchImg.addEventListener("click", () => {
     overlay.style.display = "block";
     document.body.classList.remove("light-mode");
     room.classList.remove("light-mode");
-    switchImg.src = "switch_OFF.png";
+    switchImg.src = "switch_off.png";
 
       // ランダムに位置を変更（ONのときだけ）
     randomizeSwitchPosition();
